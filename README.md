@@ -36,10 +36,15 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 ## Priority Matrix
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matix.
-- forms
+- Forms
+- submit button
 - Getting an API response
-- Search through an API
-- Getting top news
+- Search through an API perhaps limit it to JavaScript and few other technologies
+- Getting top 10 news (newest) 
+- Div boxes for the headliners or thumbnail
+- Event listener to catch the submit
+- Links for related resources
+- Image banner if not big text with style 
 
 
 ## API Data Sample
