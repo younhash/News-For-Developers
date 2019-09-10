@@ -27,7 +27,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-
+![Developers-News-Site](Developers-News-Site)
 
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
