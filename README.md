@@ -88,7 +88,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Output the response | H | 1hrs| 0hrs | 0hrs |
 | Div boxes for headliners | L | 1hrs| 0hrs | 0hrs |
 | Links for related rosources | L | 1hrs| 0hrs | 0hrs |
-| Image banner | H | 1hrs| 0hrs | 0hrs |
+| Image banner | L | 1hrs| 0hrs | 0hrs |
 | HTML and CSS | H | 4hrs| 0hrs | 0hrs |
 | Total | H | 21hrs| 0hrs | 0hrs |
 
