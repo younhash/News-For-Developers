@@ -21,6 +21,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
+I'm creating a News website where developers can look whats happening in the tech space especially in development in other words Software development. Also allowing Developers to search for specific topics. So I'm going to use newsapi.org to get my data and I want to limit it to only software rather than business. 
 
 
 ## Wireframes
@@ -34,13 +35,17 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
+Include a full list of features that have been prioritized based on the `Time and Importance` Matix.
+- forms
+- Getting an API response
+- Search through an API
+- Getting top news
 
 
 ## API Data Sample
 
 Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
+https://newsapi.org/v2/top-headlines?country=us&apiKey=13c5993f3cc84e6d81c069e76007ef89
 
 ### MVP/PostMVP - 5min
 
