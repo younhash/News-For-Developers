@@ -10,18 +10,18 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sep 25th| Project Description | Incomplete
-|Sep 25th| Wireframes / Priority Matrix / Functional Components | Incomplete
-|Sep 26th| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Sep 27th| Pseudocode / actual code | Incomplete
-|Sep 28th| Initial Clickable Model  | Incomplete
-|Sep 29th| MVP | Incomplete
-|Sep 30th| Present | Incomplete
+|Sep 10th| Project Description | Incomplete
+|Sep 11th| Wireframes / Priority Matrix / Functional Components | Incomplete
+|Sep 12th| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Sep 13th| Pseudocode / actual code | Incomplete
+|Sep 14th| Initial Clickable Model  | Incomplete
+|Sep 15th| MVP | Incomplete
+|Sep 16th| Present | Incomplete
 
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
 
 ## Wireframes
 
