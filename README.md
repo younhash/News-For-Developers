@@ -50,21 +50,31 @@ Include a full list of features that have been prioritized based on the `Time an
 ## API Data Sample
 
 Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+
 https://newsapi.org/v2/top-headlines?country=us&apiKey=13c5993f3cc84e6d81c069e76007ef89
+
 
 ### MVP/PostMVP - 5min
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
+
 #### MVP 
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Forms with ID
+- submit button
+- Event listener to catch the submit
+- Request to the API
+- Getting an API response
+- Search through an API perhaps limit it to JavaScript and few other technologies
+- Getting top 10 news (newest)
+- Output the response to the webpage
 
 #### PostMVP 
 
-- Add second API
+- Div boxes for the headliners or thumbnail
+- Links for related resources
+- Image banner if not big text with style 
 - Use local storage to save user favorites
 
 
@@ -72,9 +82,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 1hrs| 0hrs | 0hrs |
+| Working with API | H | 11hrs| 0hrs | 0hrs |
+| Event to catch submit | H | 1hrs| 0hrs | 0hrs |
+| Output the response | H | 1hrs| 0hrs | 0hrs |
+| Div boxes for headliners | L | 1hrs| 0hrs | 0hrs |
+| Links for related rosources | L | 1hrs| 0hrs | 0hrs |
+| Image banner | H | 1hrs| 0hrs | 0hrs |
+| HTML and CSS | H | 4hrs| 0hrs | 0hrs |
+| Total | H | 21hrs| 0hrs | 0hrs |
 
 
 ## Code Snippet
