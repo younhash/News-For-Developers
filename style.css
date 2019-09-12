@@ -1,0 +1,42 @@
+
+
+#search {
+  width: 50%;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 4px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.top-news {
+    display: inline;
+    width: 65%;
+}
+
+#submit {
+    padding: 12px 20px;
+    margin: 4px 0 0 0;
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+#update {
+  padding: 12px 20px;
+  margin: 8px 0;
+  left: 40%;
+  display: inline-block;
+  border: 4px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#sidebox {
+    height: 600px;
+    border: 4px solid black;
+    width: 25%;
+    float: right;
+}

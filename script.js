@@ -33,84 +33,95 @@ const sendMe = async () => {
     console.log(fillTopNews.topArticle[0].author)
     
     topNews.innerHTML = ` <div class="article">
+    <hr>
     <p> ${fillTopNews.topArticle[0].author}</p>
-    <p> ${fillTopNews.topArticle[0].title}</p>
+    <h3> ${fillTopNews.topArticle[0].title}</h3>
     <p> ${fillTopNews.topArticle[0].description}</p>
-    <p> <a href= ${fillTopNews.topArticle[0].url} ></a></p>
+    <p> <a href= ${fillTopNews.topArticle[0].url}>${fillTopNews.topArticle[0].url}</a></p>
     <img src= ${fillTopNews.topArticle[0].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[0].content}</p> </div>
+    <hr>
 
     <div class="article"> 
     <p> ${fillTopNews.topArticle[1].author}</p>
-    <p> ${fillTopNews.topArticle[1].title}</p>
+    <h3> ${fillTopNews.topArticle[1].title}</h3>
     <p> ${fillTopNews.topArticle[1].description}</p>
-    <p> <a href= ${fillTopNews.topArticle[1].url} ></a></p>
+    <p> <a href= ${fillTopNews.topArticle[1].url}>${fillTopNews.topArticle[1].url}</a></p>
     <img src= "${fillTopNews.topArticle[1].urlToImage}" width="300">
     <p> ${fillTopNews.topArticle[1].content}</p></div>
+    <hr>
     
     <div class="article">
     <p> ${fillTopNews.topArticle[2].author}</p>
-    <p> ${fillTopNews.topArticle[2].title}</p>
+    <h3> ${fillTopNews.topArticle[2].title}</h3>
     <p> ${fillTopNews.topArticle[2].description}</p>
-    <p> ${fillTopNews.topArticle[2].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[2].url}>${fillTopNews.topArticle[2].url}</a></p>
     <img src= ${fillTopNews.topArticle[2].urlToImage} width="300">
-    <p> ${fillTopNews.topArticle[2].content}</p></div> 
+    <p> ${fillTopNews.topArticle[2].content}</p></div>
+    <hr> 
     
     <div class="article">
     <p> ${fillTopNews.topArticle[3].author}</p>
-    <p> ${fillTopNews.topArticle[3].title}</p>
+    <h3> ${fillTopNews.topArticle[3].title}</h3>
     <p> ${fillTopNews.topArticle[3].description}</p>
-    <p> ${fillTopNews.topArticle[3].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[3].url}>${fillTopNews.topArticle[3].url}</a></p>
     <img src= ${fillTopNews.topArticle[3].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[3].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[4].author}</p>
-    <p> ${fillTopNews.topArticle[4].title}</p>
+    <h3> ${fillTopNews.topArticle[4].title}</h3>
     <p> ${fillTopNews.topArticle[4].description}</p>
-    <p> ${fillTopNews.topArticle[4].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[4].url}>${fillTopNews.topArticle[4].url}</a></p>
     <img src= ${fillTopNews.topArticle[4].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[4].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[5].author}</p>
-    <p> ${fillTopNews.topArticle[5].title}</p>
+    <h3> ${fillTopNews.topArticle[5].title}</h3>
     <p> ${fillTopNews.topArticle[5].description}</p>
-    <p> ${fillTopNews.topArticle[5].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[5].url}>${fillTopNews.topArticle[5].url}</a></p>
     <img src= ${fillTopNews.topArticle[5].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[5].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[6].author}</p>
-    <p> ${fillTopNews.topArticle[6].title}</p>
+    <h3> ${fillTopNews.topArticle[6].title}</h3>
     <p> ${fillTopNews.topArticle[6].description}</p>
-    <p> ${fillTopNews.topArticle[6].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[6].url}>${fillTopNews.topArticle[6].url}</a></p>
     <img src= ${fillTopNews.topArticle[6].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[6].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[7].author}</p>
-    <p> ${fillTopNews.topArticle[7].title}</p>
+    <h3> ${fillTopNews.topArticle[7].title}</h3>
     <p> ${fillTopNews.topArticle[7].description}</p>
-    <p> ${fillTopNews.topArticle[7].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[7].url}>${fillTopNews.topArticle[7].url}</a></p>
     <img src= ${fillTopNews.topArticle[7].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[7].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[8].author}</p>
-    <p> ${fillTopNews.topArticle[8].title}</p>
+    <h3> ${fillTopNews.topArticle[8].title}</h3>
     <p> ${fillTopNews.topArticle[8].description}</p>
-    <p> ${fillTopNews.topArticle[8].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[8].url}>${fillTopNews.topArticle[8].url}</a></p>
     <img src= ${fillTopNews.topArticle[8].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[8].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[9].author}</p>
-    <p> ${fillTopNews.topArticle[9].title}</p>
+    <h3> ${fillTopNews.topArticle[9].title}</h3>
     <p> ${fillTopNews.topArticle[9].description}</p>
-    <p> ${fillTopNews.topArticle[9].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[9].url}>${fillTopNews.topArticle[9].url}</a></p>
     <img src= ${fillTopNews.topArticle[9].urlToImage} width="300">
-    <p> ${fillTopNews.topArticle[9].content}</p></div> `
+    <p> ${fillTopNews.topArticle[9].content}</p></div>
+    <hr> `
 }
 //sendMe();
 
@@ -139,84 +150,96 @@ const searchMe = async (event) => {
     console.log(fillTopNews.topArticle[0].author)
     
     topNews.innerHTML = ` <div class="article">
+    <hr>
     <p> ${fillTopNews.topArticle[0].author}</p>
-    <p> ${fillTopNews.topArticle[0].title}</p>
+    <h3> ${fillTopNews.topArticle[0].title}</h3>
     <p> ${fillTopNews.topArticle[0].description}</p>
-    <p> ${fillTopNews.topArticle[0].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[0].url}>${fillTopNews.topArticle[0].url}</a></p>
     <img src= ${fillTopNews.topArticle[0].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[0].content}</p> </div>
+    <hr>
+    
 
     <div class="article"> 
     <p> ${fillTopNews.topArticle[1].author}</p>
-    <p> ${fillTopNews.topArticle[1].title}</p>
+    <h3> ${fillTopNews.topArticle[1].title}</h3>
     <p> ${fillTopNews.topArticle[1].description}</p>
-    <p> ${fillTopNews.topArticle[1].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[1].url}>${fillTopNews.topArticle[1].url}</a></p>
     <img src= ${fillTopNews.topArticle[1].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[1].content}</p></div>
+    <hr>
     
     <div class="article">
     <p> ${fillTopNews.topArticle[2].author}</p>
-    <p> ${fillTopNews.topArticle[2].title}</p>
+    <h3> ${fillTopNews.topArticle[2].title}</h3>
     <p> ${fillTopNews.topArticle[2].description}</p>
-    <p> ${fillTopNews.topArticle[2].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[2].url}>${fillTopNews.topArticle[2].url}</a></p>
     <img src= ${fillTopNews.topArticle[2].urlToImage} width="300">
-    <p> ${fillTopNews.topArticle[2].content}</p></div> 
+    <p> ${fillTopNews.topArticle[2].content}</p></div>
+    <hr> 
     
     <div class="article">
     <p> ${fillTopNews.topArticle[3].author}</p>
-    <p> ${fillTopNews.topArticle[3].title}</p>
+    <h3> ${fillTopNews.topArticle[3].title}</h3>
     <p> ${fillTopNews.topArticle[3].description}</p>
-    <p> ${fillTopNews.topArticle[3].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[3].url}>${fillTopNews.topArticle[3].url}</a></p>
     <img src= ${fillTopNews.topArticle[3].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[3].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[4].author}</p>
-    <p> ${fillTopNews.topArticle[4].title}</p>
+    <h3> ${fillTopNews.topArticle[4].title}</h3>
     <p> ${fillTopNews.topArticle[4].description}</p>
-    <p> ${fillTopNews.topArticle[4].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[4].url}>${fillTopNews.topArticle[4].url}</a></p>
     <img src= ${fillTopNews.topArticle[4].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[4].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[5].author}</p>
-    <p> ${fillTopNews.topArticle[5].title}</p>
+    <h3> ${fillTopNews.topArticle[5].title}</h3>
     <p> ${fillTopNews.topArticle[5].description}</p>
-    <p> ${fillTopNews.topArticle[5].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[5].url}>${fillTopNews.topArticle[5].url}</a></p>
     <img src= ${fillTopNews.topArticle[5].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[5].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[6].author}</p>
-    <p> ${fillTopNews.topArticle[6].title}</p>
+    <h3> ${fillTopNews.topArticle[6].title}</h3>
     <p> ${fillTopNews.topArticle[6].description}</p>
-    <p> ${fillTopNews.topArticle[6].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[6].url}>${fillTopNews.topArticle[6].url}</a></p>
     <img src= ${fillTopNews.topArticle[6].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[6].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[7].author}</p>
-    <p> ${fillTopNews.topArticle[7].title}</p>
+    <h3> ${fillTopNews.topArticle[7].title}</h3>
     <p> ${fillTopNews.topArticle[7].description}</p>
-    <p> ${fillTopNews.topArticle[7].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[7].url}>${fillTopNews.topArticle[7].url}</a></p>
     <img src= ${fillTopNews.topArticle[7].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[7].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[8].author}</p>
-    <p> ${fillTopNews.topArticle[8].title}</p>
+    <h3> ${fillTopNews.topArticle[8].title}</h3>
     <p> ${fillTopNews.topArticle[8].description}</p>
-    <p> ${fillTopNews.topArticle[8].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[8].url}>${fillTopNews.topArticle[8].url}</a></p>
     <img src= ${fillTopNews.topArticle[8].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[8].content}</p></div>
+    <hr>
 
     <div class="article">
     <p> ${fillTopNews.topArticle[9].author}</p>
-    <p> ${fillTopNews.topArticle[9].title}</p>
+    <h3> ${fillTopNews.topArticle[9].title}</h3>
     <p> ${fillTopNews.topArticle[9].description}</p>
-    <p> ${fillTopNews.topArticle[9].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[9].url}>${fillTopNews.topArticle[9].url}</a></p>
     <img src= ${fillTopNews.topArticle[9].urlToImage} width="300">
-    <p> ${fillTopNews.topArticle[9].content}</p></div> `
+    <p> ${fillTopNews.topArticle[9].content}</p></div>
+    <hr> `
 }
 
 // Update News
