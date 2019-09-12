@@ -1,3 +1,10 @@
+
+
+
+//// Can I use string interposlation with link line 39 0r 47 ? \\\\\\\
+
+
+
 const topNews = document.querySelector('.top-news');
 const fillTopNews = {};
 let submit;
@@ -29,7 +36,7 @@ const sendMe = async () => {
     <p> ${fillTopNews.topArticle[0].author}</p>
     <p> ${fillTopNews.topArticle[0].title}</p>
     <p> ${fillTopNews.topArticle[0].description}</p>
-    <p> ${fillTopNews.topArticle[0].url}</p>
+    <p> <a href= ${fillTopNews.topArticle[0].url} ></a></p>
     <img src= ${fillTopNews.topArticle[0].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[0].content}</p> </div>
 
@@ -37,8 +44,8 @@ const sendMe = async () => {
     <p> ${fillTopNews.topArticle[1].author}</p>
     <p> ${fillTopNews.topArticle[1].title}</p>
     <p> ${fillTopNews.topArticle[1].description}</p>
-    <p> ${fillTopNews.topArticle[1].url}</p>
-    <img src= ${fillTopNews.topArticle[1].urlToImage} width="300">
+    <p> <a href= ${fillTopNews.topArticle[1].url} ></a></p>
+    <img src= "${fillTopNews.topArticle[1].urlToImage}" width="300">
     <p> ${fillTopNews.topArticle[1].content}</p></div>
     
     <div class="article">
