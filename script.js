@@ -1,5 +1,5 @@
 const topNews = document.querySelector('.top-news');
-
+const fillTopNews = {};
 /////    Getting the API Response    \\\\
 // dont forget to add back event to the parameter
 const sendMe = async () => {
@@ -10,25 +10,46 @@ const sendMe = async () => {
     console.log(myResponse.data);
 
     /////    Output the API Response    \\\\\
-const fillTopNews = {};
-const article = myResponse.data.articles[0];
-fillTopNews.sourceName = article.source.name;
-fillTopNews.author = article.author
-fillTopNews.title = article.title
-fillTopNews.description = article.description
-fillTopNews.url = article.url;
-fillTopNews.urlToImage = article.urlToImage
-fillTopNews.content = article.content;
+    const article = [ myResponse.data.articles]
+    console.log(article);
+    for (let i = 0; i < article.length; i++) {
+        fillTopNews.topArticle = article[i];        
+    }    
+    // fillTopNews.topArticle[0]. = author = article.author
+    // fillTopNews.topArticle[1].title = article.title
+    // fillTopNews.topArticle[2].description = article.description
+    // fillTopNews.topArticle[3].url = article.url;
+    // fillTopNews.topArticle[4].urlToImage = article.urlToImage
+    // fillTopNews.topArticle[5].content = article.content;
+    console.log(fillTopNews.topArticle[0].author)
+    
+    topNews.innerHTML = `
+    <p> ${fillTopNews.topArticle[0].author}</p>
+    <p> ${fillTopNews.topArticle[0].title}</p>
+    <p> ${fillTopNews.topArticle[0].description}</p>
+    <p> ${fillTopNews.topArticle[0].url}</p>
+    <img src= ${fillTopNews.topArticle[0].urlToImage} width="300">
+    <p> ${fillTopNews.topArticle[0].publishDate}</p>
+    <p> ${fillTopNews.topArticle[0].content}</p>
 
-topNews.innerHTML = `
-<p>This is ${fillTopNews.sourceName}</p>
-<p> ${fillTopNews.author}</p>
-<p> ${fillTopNews.title}</p>
-<p> ${fillTopNews.description}</p>
-<p> ${fillTopNews.url}</p>
-<img src= ${fillTopNews.urlToImage} width="300">
-<p> ${fillTopNews.publishDate}</p>
-<p> ${fillTopNews.content}</p>`
+     
+    <p> ${fillTopNews.topArticle[1].author}</p>
+    <p> ${fillTopNews.topArticle[1].title}</p>
+    <p> ${fillTopNews.topArticle[1].description}</p>
+    <p> ${fillTopNews.topArticle[1].url}</p>
+    <img src= ${fillTopNews.topArticle[1].urlToImage} width="300">
+    <p> ${fillTopNews.topArticle[1].publishDate}</p>
+    <p> ${fillTopNews.topArticle[1].content}</p>
+    
+    
+    <p> ${fillTopNews.topArticle[2].author}</p>
+    <p> ${fillTopNews.topArticle[2].title}</p>
+    <p> ${fillTopNews.topArticle[2].description}</p>
+    <p> ${fillTopNews.topArticle[2].url}</p>
+    <img src= ${fillTopNews.topArticle[2].urlToImage} width="300">
+    <p> ${fillTopNews.topArticle[2].publishDate}</p>
+    <p> ${fillTopNews.topArticle[2].content}</p> `
+
 
 }
 sendMe();
