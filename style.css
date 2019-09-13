@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(190, 190, 190);
 }
@@ -14,7 +18,7 @@ form {
   width: 75%;
   display: block;
   margin: 0 auto;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 #search {
@@ -22,7 +26,7 @@ form {
   border: 4px solid black;
   border-radius: 4px;
   padding: 12px 20px;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .top-news {
@@ -49,13 +53,13 @@ form {
   margin: 0 0 0 16px;
   left: 40%;
   display: inline-block;
-  border: 4px solid black;
+  border: 4px solid darkgray;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 #sidebox {
-    padding: 20px;
+    padding: 32px 10px 32px 10px;
     width: 25%;
     float: right;
     background-color: rgb(245, 245, 245);
@@ -68,7 +72,70 @@ form {
     padding: 0 0 0 8px;
 }
 
+footer {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /*     border: 1px solid;
 
+        margin: 5px 5px 5px 5px;
 
 */
+
+@media only screen and (max-width: 715px) {
+    #sidebox {
+        display: none;
+    }
+    .top-news {
+        width: 100%;
+        padding: 20px;
+        margin: auto;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    #submit {
+        height: 45px;
+        margin: 0 0 0 0;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #sidebox {
+        display: none;
+    }
+    .top-news {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .centerAndSide {
+        width: 100%;
+        display: flex;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+    #search {
+        width: 65%;
+    }
+    #submit {
+        width: 25%;
+        height: 45px;
+        margin: 0 0 0 0;
+        background-color: white;
+    }
+    form {
+        width: 100%;
+    }
+}

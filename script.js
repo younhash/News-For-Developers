@@ -33,7 +33,6 @@ const sendMe = async () => {
     console.log(fillTopNews.topArticle[0].author)
     
     topNews.innerHTML = ` <div class="article">
-    <p> ${fillTopNews.topArticle[0].author}</p>
     <h3> ${fillTopNews.topArticle[0].title}</h3>
     <p> ${fillTopNews.topArticle[0].description}</p>
     <p> <a href= ${fillTopNews.topArticle[0].url}>${fillTopNews.topArticle[0].url}</a></p>
@@ -42,7 +41,6 @@ const sendMe = async () => {
     <hr>
 
     <div class="article"> 
-    <p> ${fillTopNews.topArticle[1].author}</p>
     <h3> ${fillTopNews.topArticle[1].title}</h3>
     <p> ${fillTopNews.topArticle[1].description}</p>
     <p> <a href= ${fillTopNews.topArticle[1].url}>${fillTopNews.topArticle[1].url}</a></p>
@@ -51,7 +49,6 @@ const sendMe = async () => {
     <hr>
     
     <div class="article">
-    <p> ${fillTopNews.topArticle[2].author}</p>
     <h3> ${fillTopNews.topArticle[2].title}</h3>
     <p> ${fillTopNews.topArticle[2].description}</p>
     <p> <a href= ${fillTopNews.topArticle[2].url}>${fillTopNews.topArticle[2].url}</a></p>
@@ -60,7 +57,6 @@ const sendMe = async () => {
     <hr> 
     
     <div class="article">
-    <p> ${fillTopNews.topArticle[3].author}</p>
     <h3> ${fillTopNews.topArticle[3].title}</h3>
     <p> ${fillTopNews.topArticle[3].description}</p>
     <p> <a href= ${fillTopNews.topArticle[3].url}>${fillTopNews.topArticle[3].url}</a></p>
@@ -69,7 +65,6 @@ const sendMe = async () => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[4].author}</p>
     <h3> ${fillTopNews.topArticle[4].title}</h3>
     <p> ${fillTopNews.topArticle[4].description}</p>
     <p> <a href= ${fillTopNews.topArticle[4].url}>${fillTopNews.topArticle[4].url}</a></p>
@@ -78,7 +73,6 @@ const sendMe = async () => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[5].author}</p>
     <h3> ${fillTopNews.topArticle[5].title}</h3>
     <p> ${fillTopNews.topArticle[5].description}</p>
     <p> <a href= ${fillTopNews.topArticle[5].url}>${fillTopNews.topArticle[5].url}</a></p>
@@ -87,7 +81,6 @@ const sendMe = async () => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[6].author}</p>
     <h3> ${fillTopNews.topArticle[6].title}</h3>
     <p> ${fillTopNews.topArticle[6].description}</p>
     <p> <a href= ${fillTopNews.topArticle[6].url}>${fillTopNews.topArticle[6].url}</a></p>
@@ -96,7 +89,6 @@ const sendMe = async () => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[7].author}</p>
     <h3> ${fillTopNews.topArticle[7].title}</h3>
     <p> ${fillTopNews.topArticle[7].description}</p>
     <p> <a href= ${fillTopNews.topArticle[7].url}>${fillTopNews.topArticle[7].url}</a></p>
@@ -105,7 +97,6 @@ const sendMe = async () => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[8].author}</p>
     <h3> ${fillTopNews.topArticle[8].title}</h3>
     <p> ${fillTopNews.topArticle[8].description}</p>
     <p> <a href= ${fillTopNews.topArticle[8].url}>${fillTopNews.topArticle[8].url}</a></p>
@@ -114,7 +105,6 @@ const sendMe = async () => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[9].author}</p>
     <h3> ${fillTopNews.topArticle[9].title}</h3>
     <p> ${fillTopNews.topArticle[9].description}</p>
     <p> <a href= ${fillTopNews.topArticle[9].url}>${fillTopNews.topArticle[9].url}</a></p>
@@ -149,7 +139,6 @@ const searchMe = async (event) => {
     console.log(fillTopNews.topArticle[0].author)
     
     topNews.innerHTML = ` <div class="article">
-    <p> ${fillTopNews.topArticle[0].author}</p>
     <h3> ${fillTopNews.topArticle[0].title}</h3>
     <p> ${fillTopNews.topArticle[0].description}</p>
     <p> <a href= ${fillTopNews.topArticle[0].url}>${fillTopNews.topArticle[0].url}</a></p>
@@ -159,7 +148,6 @@ const searchMe = async (event) => {
     
 
     <div class="article"> 
-    <p> ${fillTopNews.topArticle[1].author}</p>
     <h3> ${fillTopNews.topArticle[1].title}</h3>
     <p> ${fillTopNews.topArticle[1].description}</p>
     <p> <a href= ${fillTopNews.topArticle[1].url}>${fillTopNews.topArticle[1].url}</a></p>
@@ -168,7 +156,6 @@ const searchMe = async (event) => {
     <hr>
     
     <div class="article">
-    <p> ${fillTopNews.topArticle[2].author}</p>
     <h3> ${fillTopNews.topArticle[2].title}</h3>
     <p> ${fillTopNews.topArticle[2].description}</p>
     <p> <a href= ${fillTopNews.topArticle[2].url}>${fillTopNews.topArticle[2].url}</a></p>
@@ -177,7 +164,6 @@ const searchMe = async (event) => {
     <hr> 
     
     <div class="article">
-    <p> ${fillTopNews.topArticle[3].author}</p>
     <h3> ${fillTopNews.topArticle[3].title}</h3>
     <p> ${fillTopNews.topArticle[3].description}</p>
     <p> <a href= ${fillTopNews.topArticle[3].url}>${fillTopNews.topArticle[3].url}</a></p>
@@ -186,7 +172,6 @@ const searchMe = async (event) => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[4].author}</p>
     <h3> ${fillTopNews.topArticle[4].title}</h3>
     <p> ${fillTopNews.topArticle[4].description}</p>
     <p> <a href= ${fillTopNews.topArticle[4].url}>${fillTopNews.topArticle[4].url}</a></p>
@@ -195,7 +180,6 @@ const searchMe = async (event) => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[5].author}</p>
     <h3> ${fillTopNews.topArticle[5].title}</h3>
     <p> ${fillTopNews.topArticle[5].description}</p>
     <p> <a href= ${fillTopNews.topArticle[5].url}>${fillTopNews.topArticle[5].url}</a></p>
@@ -204,7 +188,6 @@ const searchMe = async (event) => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[6].author}</p>
     <h3> ${fillTopNews.topArticle[6].title}</h3>
     <p> ${fillTopNews.topArticle[6].description}</p>
     <p> <a href= ${fillTopNews.topArticle[6].url}>${fillTopNews.topArticle[6].url}</a></p>
@@ -213,7 +196,6 @@ const searchMe = async (event) => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[7].author}</p>
     <h3> ${fillTopNews.topArticle[7].title}</h3>
     <p> ${fillTopNews.topArticle[7].description}</p>
     <p> <a href= ${fillTopNews.topArticle[7].url}>${fillTopNews.topArticle[7].url}</a></p>
@@ -222,7 +204,6 @@ const searchMe = async (event) => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[8].author}</p>
     <h3> ${fillTopNews.topArticle[8].title}</h3>
     <p> ${fillTopNews.topArticle[8].description}</p>
     <p> <a href= ${fillTopNews.topArticle[8].url}>${fillTopNews.topArticle[8].url}</a></p>
@@ -231,7 +212,6 @@ const searchMe = async (event) => {
     <hr>
 
     <div class="article">
-    <p> ${fillTopNews.topArticle[9].author}</p>
     <h3> ${fillTopNews.topArticle[9].title}</h3>
     <p> ${fillTopNews.topArticle[9].description}</p>
     <p> <a href= ${fillTopNews.topArticle[9].url}>${fillTopNews.topArticle[9].url}</a></p>
