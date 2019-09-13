@@ -1,29 +1,37 @@
 
 body {
-    background-color: rgb(224, 199, 199);
+    background-color: rgb(190, 190, 190);
 }
 
-header{
+header {
     font-size: 36px;
     text-align: center;
+    background-color: rgb(200, 200, 200);
+    padding: 36px;
+}
+
+form {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box
 }
 
 #search {
-  width: 50%;
-  padding: 12px 20px;
-  margin: auto;
-  display: inline-block;
+  width: 75%;
   border: 4px solid black;
   border-radius: 4px;
-  box-sizing: border-box;
+  padding: 12px 20px;
+  box-sizing: border-box
 }
 
 .top-news {
     width: 65%;
+    padding: 75px;
+    margin: 0 0 0 10px;
     border: 4px solid darkgray;
-    padding: 20px;
-    margin: 10px;
-    background-color: aliceblue;
+    background-color: rgb(250, 250, 250);
+    text-align: justify;
 
 }
 
@@ -37,8 +45,8 @@ header{
 }
 
 #update {
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 10px 10px;
+  margin: 0 0 0 16px;
   left: 40%;
   display: inline-block;
   border: 4px solid black;
@@ -47,14 +55,20 @@ header{
 }
 
 #sidebox {
-    height: 600px;
-    border: 1px solid black;
+    padding: 20px;
     width: 25%;
-    padding: 4px;
     float: right;
+    background-color: rgb(245, 245, 245);
+    border: 4px solid darkgray;
+    text-align: justify;
 }
 
 .centerAndSide {
     display: flex;
     padding: 0 0 0 8px;
 }
+
+/*     border: 1px solid;
+
+
+*/
