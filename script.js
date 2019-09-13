@@ -33,7 +33,6 @@ const sendMe = async () => {
     console.log(fillTopNews.topArticle[0].author)
     
     topNews.innerHTML = ` <div class="article">
-    <hr>
     <p> ${fillTopNews.topArticle[0].author}</p>
     <h3> ${fillTopNews.topArticle[0].title}</h3>
     <p> ${fillTopNews.topArticle[0].description}</p>
@@ -121,7 +120,7 @@ const sendMe = async () => {
     <p> <a href= ${fillTopNews.topArticle[9].url}>${fillTopNews.topArticle[9].url}</a></p>
     <img src= ${fillTopNews.topArticle[9].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[9].content}</p></div>
-    <hr> `
+     `
 }
 //sendMe();
 
@@ -150,7 +149,6 @@ const searchMe = async (event) => {
     console.log(fillTopNews.topArticle[0].author)
     
     topNews.innerHTML = ` <div class="article">
-    <hr>
     <p> ${fillTopNews.topArticle[0].author}</p>
     <h3> ${fillTopNews.topArticle[0].title}</h3>
     <p> ${fillTopNews.topArticle[0].description}</p>
@@ -239,7 +237,7 @@ const searchMe = async (event) => {
     <p> <a href= ${fillTopNews.topArticle[9].url}>${fillTopNews.topArticle[9].url}</a></p>
     <img src= ${fillTopNews.topArticle[9].urlToImage} width="300">
     <p> ${fillTopNews.topArticle[9].content}</p></div>
-    <hr> `
+     `
 }
 
 // Update News
