@@ -96,10 +96,6 @@ const searchMe = async (event) => {
 // Search News
 form = document.querySelector('form');
 form.addEventListener('submit', searchMe);
-// Update News
-update = document.querySelector('#update');
-update.addEventListener('click', sendMe);
-
 
 
 
@@ -174,6 +170,10 @@ const sendMe = async () => {
 }
 
 //sendMe();
+
+// Update News
+update = document.querySelector('#update');
+update.addEventListener('click', sendMe);
 
 
 
