@@ -36,7 +36,6 @@ form {
     border: 4px solid darkgray;
     background-color: rgb(250, 250, 250);
     text-align: justify;
-
 }
 
 #submit {
@@ -59,21 +58,31 @@ form {
 }
 
 #sidebox {
+    display: inline-block;
     padding: 32px 10px 32px 10px;
-    width: 25%;
+    width: 34%;
+    height: 1700px;
     float: right;
     background-color: rgb(245, 245, 245);
     border: 4px solid darkgray;
     text-align: justify;
+    position: relative;
+    right: 0;
+    top: 0;
+
 }
 
 .centerAndSide {
     display: flex;
     padding: 0 0 0 8px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 footer {
     text-align: center;
+    clear: both;
 }
 
 ul {
@@ -105,6 +114,9 @@ ul {
         height: 45px;
         margin: 0 0 0 0;
         background-color: white;
+    }
+    #search {
+        width: 65% 
     }
 }
 
