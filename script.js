@@ -15,7 +15,16 @@ let update;
 let div;
 let parags;
 let node;
+let currentNews
 
+function checkToSee(newNode, oldNode) {
+    currentNews = document.querySelectorAll('.top-news');
+    console.log(currentNews);
+    currentNews.forEach(function(node) {
+    //body.removeChild(node);
+    body.replaceChild(newNode, oldNode)
+})
+}
 
 
 
@@ -25,6 +34,8 @@ let node;
 const searchMe = async (event) => {
     event.preventDefault();
     //topNews.innerHTML = '';
+    checkToSee(node, sendMe)
+
     let theSearchQuery = document.querySelector('#search').value;
 
     let myResponse = await axios.get(`https://newsapi.org/v2/everything?q=${theSearchQuery}&apiKey=13c5993f3cc84e6d81c069e76007ef89`);
@@ -34,11 +45,8 @@ const searchMe = async (event) => {
     fillTopNews.topArticle = myResponse.data.articles;
     console.log(fillTopNews.topArticle);
 
-    let currentNews = document.querySelectorAll('.top-news');
-        console.log(currentNews);
-        currentNews.forEach(function(node) {
-        body.removeChild(node);
-    })
+       
+
 
     /////    Output the API Response    \\\\\
     for (let i = 0; i < fillTopNews.topArticle.length; i++) {
@@ -106,15 +114,18 @@ const sendMe = async () => {
     //event.preventDefault();
     //topNews.innerHTML = '';
 
+    //     currentNews = document.querySelectorAll('.top-news');
+    //     console.log(currentNews);
+    //     currentNews.forEach(function(node) {
+    //     body.removeChild(node);
+    //     //body.replaceChild(node, searchMe)
+    // })
+
+    checkToSee(node, searchMe)
+
     let myResponse = await axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=13c5993f3cc84e6d81c069e76007ef89");
     fillTopNews.topArticle = myResponse.data.articles;
     console.log(fillTopNews.topArticle);
-
-    let currentNews = document.querySelectorAll('.top-news');
-        console.log(currentNews);
-        currentNews.forEach(function(node) {
-        body.removeChild(node);
-    })
 
     /////    Output the API Response    \\\\\
     for (let i = 0; i < fillTopNews.topArticle.length; i++) {
